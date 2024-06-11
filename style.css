@@ -1,0 +1,40 @@
+body {
+  background-color: #d5e1ef;
+  font-family: sans-serif;
+  display: grid;
+  place-content: center;
+  height: 98vh;
+}
+
+.l-card {
+  width: min-content;
+  background-color: white;
+  padding: 15pt;
+  text-align: center;
+  box-shadow: 10px 10px 25px -18px rgba(0,0,0,0.39);
+  -webkit-box-shadow: 10px 10px 25px -18px rgba(0,0,0,0.39);
+  -moz-box-shadow: 10px 10px 25px -18px rgba(0,0,0,0.39);
+}
+
+.l-card,
+.m-qr {
+  border-radius: 20px;
+}
+
+.m-qr {
+  width: 300px;
+}
+
+.m-title {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding-top: 15px;
+}
+.m-description {
+  color: grey;
+  padding-bottom: 15px;
+}
+
+.attribution {
+  margin-top: 50px;
+}
